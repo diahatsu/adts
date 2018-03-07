@@ -92,4 +92,20 @@ void List::remove(int k)
 	}
 	
 	//Implementations of missing operations
-	
+     void List::setFrontPtr(Node nextptr)
+     {
+          frontPtr = nextptr
+     }
+     Node List::getFrontPtr()
+     {
+          return frontPtr;
+     }
+
+     void List::setNum_elements(int a);
+     {
+          num_elements = a;
+     }
+     int getNum_elements();	
+     {
+          return num_elements;
+     }
