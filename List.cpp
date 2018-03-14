@@ -91,6 +91,19 @@ void List::remove(int k)
 	num_elements--;
 	}
 	
-	//Implementations of missing operations
-int List::readNode(int num)
+int List::getData(int num)
 {
+   Node *myPtr = frontPtr;
+   if(num == 1)
+   {
+      return frontPtr->data;
+   }
+   else
+   {
+      for (int i = 1 ; i != num ; i++)
+      {
+         myPtr = myPtr -> link;
+      }
+      return myPtr->data;
+   }
+}
