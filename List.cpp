@@ -91,7 +91,7 @@ void List::remove(int k)
 	num_elements--;
 	}
 	
-int List::getData(int num)
+int List::getData(int num) //get data held in list
 {
    Node *myPtr = frontPtr;
    if(num == 1)
