@@ -28,7 +28,7 @@ int main()
 {         
     string a_string = "COMP2115 here we come!!!";
      
-    cout<<"\""<<a_string<<"\""<<endl<<"\""<<reverseString(a_string)<<"\"";
+    cout<<"\""<<a_string<<"\""<<endl<<"\""<<reverseString(a_string)<<"\"\n";
 	    
     return 0;
         

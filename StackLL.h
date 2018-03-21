@@ -28,6 +28,8 @@ public:
    int top();
 
    void clear();
+   
+   void remove(int);
 
 };
 
