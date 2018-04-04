@@ -29,7 +29,7 @@ public:
 
    void clear();
    
-   void remove(int);
+//   void remove(int);
 
 };
 

@@ -1,5 +1,5 @@
 #https://www.youtube.com/watch?v=aw9wHbFTnAQ 
-CFLAGS=-std=c++14 -c -Wall
+CFLAGS=-std=c++14 -c -g -Wall
 
 #all: list.out
 
